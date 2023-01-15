@@ -1,0 +1,20 @@
+---
+permalink: online-help/reference-performance-qos-policy-groups-view.html 
+sidebar: sidebar 
+keywords:  
+summary: QoS 정책 그룹 보기에는 Unified Manager에서 모니터링하는 클러스터에서 사용할 수 있는 QoS 정책 그룹이 표시됩니다. 여기에는 기존 QoS 정책, 적응형 QoS 정책, 그리고 성능 서비스 수준을 사용하여 할당된 QoS 정책이 포함됩니다. 
+---
+= 성능: QoS 정책 그룹 보기
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+QoS 정책 그룹 보기에는 Unified Manager에서 모니터링하는 클러스터에서 사용할 수 있는 QoS 정책 그룹이 표시됩니다. 여기에는 기존 QoS 정책, 적응형 QoS 정책, 그리고 성능 서비스 수준을 사용하여 할당된 QoS 정책이 포함됩니다.
+
+페이지 위쪽에 있는 컨트롤을 사용하면 관심 있는 QoS 정책 유형에 따라 특정 보기를 선택하고, 검색을 수행하여 특정 개체를 찾고, 필터를 생성 및 적용하여 표시된 데이터 목록의 범위를 좁히고, 페이지에서 열을 추가/제거/재정렬할 수 있습니다. 페이지의 데이터를 로 내보냅니다 `.csv` 또는 `.pdf` 파일.
+
+페이지를 사용자 지정한 후 결과를 사용자 정의 보기로 저장한 다음 이 데이터의 보고서를 정기적으로 생성 및 이메일로 전송할 수 있습니다.
+
+을 참조하십시오 xref:reference-qos-policy-group-fields.adoc[QoS 정책 그룹 필드] 이 페이지의 모든 필드에 대한 설명은 을 참조하십시오.

@@ -1,0 +1,94 @@
+---
+permalink: reporting/task-creating-a-report-to-view-aggregates-that-have-the-most-available-iops.html 
+sidebar: sidebar 
+keywords:  
+summary: 이 보고서는 새 워크로드를 프로비저닝할 수 있는 애그리게이트 유형별로 가장 가용성이 높은 IOPS를 제공하는 애그리게이트를 보여줍니다. 
+---
+= 보고서를 생성하여 사용 가능한 IOPS가 가장 높은 애그리게이트를 확인합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 보고서는 새 워크로드를 프로비저닝할 수 있는 애그리게이트 유형별로 가장 가용성이 높은 IOPS를 제공하는 애그리게이트를 보여줍니다.
+
+
+
+== 시작하기 전에
+
+* 애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.
+
+
+
+
+== 이 작업에 대해
+
+다음 단계를 사용하여 Health(상태)를 엽니다. All Volumes(모든 볼륨) 보기를 열고, Excel에서 보기를 다운로드하고, 사용 가능한 용량 차트를 만들고, 사용자 지정된 Excel 파일을 업로드하고, 최종 보고서를 예약합니다.
+
+
+
+== 단계
+
+. 왼쪽 탐색 창에서 * 스토리지 * > * 애그리게이트 * 를 클릭합니다.
+. View * 드롭다운에서 * Performance: All aggregate * 를 선택합니다.
+. 를 표시하려면 * 표시/숨기기 * 를 선택합니다 `Available IOPS` 열을 숨기고 를 숨깁니다 `Cluster FQDN`, `Inactive Data Reporting`, 및 `Threshold Policy` 열.
+. 을 끌어 놓습니다 `Available IOPS` 및 `Free Capacity` 열 옆에 있습니다 `Type` 열.
+. 사용자 정의 뷰의 이름을 지정하고 저장합니다 `Available IOPS Per Aggr`.
+. 보고서 * > * Excel 다운로드 * 를 선택합니다.
++
+image::../media/download-excel-menu.png[Excel 메뉴 다운로드]
+
++
+브라우저에 따라 * 확인 * 을 클릭하여 파일을 저장해야 할 수 있습니다.
+
+. 필요한 경우 * 편집 사용 * 을 클릭합니다.
+. Excel에서 다운로드한 파일을 엽니다.
+. 를 누릅니다 `data` 시트 왼쪽 위에 있는 작은 삼각형을 클릭하여 시트 전체를 선택합니다.
+. 데이터 * 리본 메뉴의 * 에서 * 정렬 * 을 선택합니다 `Sort & Filter` 영역.
+. 다음 정렬 수준을 설정합니다.
++
+.. 정렬 기준 * 을 지정합니다 `Available IOPS (IOPS)`, * 정렬 기준 * `Cell Values`, 및 * 주문 * AS `Largest to Smallest`.
+.. 레벨 추가 * 를 클릭합니다.
+.. 정렬 기준 * 을 지정합니다 `Type`, * 정렬 기준 * `Cell Values`, 및 * 주문 * AS `Z to A`.
+.. 레벨 추가 * 를 클릭합니다.
+.. 정렬 기준 * 을 지정합니다 `Free Capacity (GB)`, * 정렬 기준 * `Cell Values`, 및 * 주문 * AS `Largest to Smallest`.
+.. 확인 * 을 클릭합니다.
+
+
+. Excel 파일을 저장하고 닫습니다.
+. Unified Manager에서 * 보고서 * > * Excel 업로드 * 를 선택합니다.
++
+[NOTE]
+====
+Excel 파일을 다운로드한 동일한 보기에 있는지 확인합니다.
+
+====
+. 이 경우 수정한 Excel 파일을 선택합니다 `performance-aggregates-<date>.xlsx`.
+. 열기 * 를 클릭합니다.
+. 제출 * 을 클릭합니다.
++
+보고서 * > * Excel 업로드 * 메뉴 항목 옆에 확인 표시가 나타납니다.
+
++
+image::../media/upload-excel.png[Excel 업로드]
+
+. 예약된 보고서 * 를 클릭합니다.
+. 새 보고서의 일정 특성을 정의할 수 있도록 별표 추가 * 를 클릭하여 * 보고서 일정 * 페이지에 새 행을 추가합니다.
+. 보고서 일정 이름을 입력하고 다른 보고서 필드를 입력한 다음 확인 표시(image:../media/blue-check.gif[""])를 클릭합니다.
++
+[NOTE]
+====
+보고서의 * XLSX * 형식을 선택합니다.
+
+====
++
+보고서가 즉시 테스트로 전송됩니다. 그런 다음 보고서가 생성되어 지정된 빈도를 사용하여 나열된 수신자에게 전자 메일로 전송됩니다.
+
+
+
+
+
+== 작업을 마친 후
+
+보고서에 표시된 결과를 기준으로 사용 가능한 IOPS가 가장 높은 애그리게이트에 새로운 워크로드를 프로비저닝하고 싶어 할 수 있습니다.

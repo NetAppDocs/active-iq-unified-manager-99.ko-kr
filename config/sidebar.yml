@@ -1,0 +1,104 @@
+---
+section: config
+title: 구성 및 관리 작업을 수행합니다
+entries:
+- title: Active IQ Unified Manager 구성
+  url: "/config/concept-configuring-unified-manager.html"
+  entries:
+  - title: 구성 시퀀스의 개요
+    url: "/config/concept-overview-of-the-configuration-sequence.html"
+  - title: Unified Manager 웹 UI에 액세스
+    url: "/config/task-accessing-oncommand-unified-manager-web-ui.html"
+  - title: Unified Manager 웹 UI의 초기 설정 수행
+    url: "/config/task-performing-the-initial-setup-of-the-unified-manager-web-ui.html"
+  - title: 클러스터 추가
+    url: "/config/task-adding-clusters.html"
+  - title: 경고 알림을 보내도록 Unified Manager 구성
+    url: "/config/task-configuring-unified-manager-to-send-alert-notifications.html"
+    entries:
+    - title: 이벤트 알림 설정을 구성하는 중입니다
+      url: "/config/task-configuring-event-notification-settings.html"
+    - title: 원격 인증 활성화 중
+      url: "/config/task-enabling-remote-authentication.html"
+    - title: 원격 인증에서 중첩 그룹을 해제합니다
+      url: "/config/task-disabling-nested-groups-from-remote-authentication.html"
+    - title: 인증 서버 추가
+      url: "/config/task-adding-authentication-servers.html"
+    - title: 인증 서버의 구성을 테스트하는 중입니다
+      url: "/config/task-testing-the-configuration-of-authentication-servers-um-6-0.html"
+    - title: 사용자 추가
+      url: "/config/task-adding-users.html"
+    - title: 알림 추가
+      url: "/config/task-adding-alerts.html"
+  - title: Unified Manager에 자동으로 추가되는 EMS 이벤트입니다
+    url: "/config/reference-ems-events-that-are-added-automatically-to-unified-manager.html"
+  - title: ONTAP EMS 이벤트 가입
+    url: "/config/task-subscribing-to-ontap-ems-events.html"
+  - title: SAML 인증 설정 관리
+    url: "/config/concept-managing-saml-authentication-settings-um.html"
+    entries:
+    - title: ID 공급자 요구 사항
+      url: "/config/reference-identity-provider-requirements-um.html"
+    - title: SAML 인증을 사용하도록 설정합니다
+      url: "/config/task-enabling-saml-authentication-um.html"
+  - title: 로컬 사용자 암호 변경
+    url: "/config/task-changing-the-local-user-password.html"
+  - title: 세션 비활성 시간 초과 설정
+    url: "/config/task-setting-the-session-inactivity-timeout.html"
+  - title: Unified Manager 호스트 이름을 변경하는 중입니다
+    url: "/config/concept-changing-the-unified-manager-host-name.html"
+    entries:
+    - title: Unified Manager 가상 어플라이언스 호스트 이름을 변경하는 중입니다
+      url: "/config/task-changing-the-unified-manager-host-name-on-vmware.html"
+      entries:
+      - title: HTTPS 보안 인증서를 생성하는 중입니다
+        url: "/config/task-generating-an-https-security-certificate-ocf.html"
+      - title: Unified Manager 가상 머신을 재시작합니다
+        url: "/config/task-restarting-the-unified-manager-virtual-machine.html"
+    - title: Linux 시스템에서 Unified Manager 호스트 이름 변경
+      url: "/config/task-changing-the-unified-manager-host-name-on-rhel-or-centos.html"
+  - title: 정책 기반 스토리지 관리 설정 및 해제
+    url: "/config/task-enabling-and-disabling-policy-based-storage-management.html"
+- title: Unified Manager 백업 구성
+  url: "/config/concept-configuring-um-backup.html"
+- title: 유지보수 콘솔 사용
+  url: "/config/task-using-the-maintenance-console.html"
+  entries:
+  - title: 유지보수 콘솔에서 제공하는 기능은 무엇입니까
+    url: "/config/concept-what-functionality-the-maintenance-console-provides.html"
+  - title: 유지 관리 사용자가 수행하는 작업
+    url: "/config/concept-what-the-maintenance-user-does.html"
+  - title: 진단 사용자 기능
+    url: "/config/concept-what-the-diagnostic-user-does.html"
+  - title: 유지보수 콘솔 액세스
+    url: "/config/task-accessing-the-maintenance-console.html"
+  - title: vSphere VM 콘솔을 사용하여 유지 관리 콘솔 액세스
+    url: "/config/task-accessing-the-maintenance-console-using-vsphere.html"
+  - title: 유지보수 콘솔 메뉴
+    url: "/config/concept-maintenance-console-menu.html"
+    entries:
+    - title: 네트워크 구성 메뉴
+      url: "/config/reference-network-configuration-menu.html"
+    - title: System Configuration(시스템 구성) 메뉴
+      url: "/config/reference-system-configuration-menu.html"
+    - title: 지원 및 진단 메뉴
+      url: "/config/reference-support-and-diagnostics-menu.html"
+    - title: 추가 메뉴 옵션
+      url: "/config/reference-additional-menu-options.html"
+  - title: Windows에서 유지 관리 사용자 암호 변경
+    url: "/config/task-changing-the-maintenance-user-password-on-windows.html"
+  - title: Linux 시스템에서 umadmin 암호 변경
+    url: "/config/task-changing-the-umadmin-password-on-rhel.html"
+  - title: Unified Manager가 HTTP 및 HTTPS 프로토콜에 사용하는 포트를 변경합니다
+    url: "/config/task-changing-the-ports-um-uses-for-http-and-https-protocols.html"
+  - title: 네트워크 인터페이스를 추가하는 중입니다
+    url: "/config/task-adding-additional-network-interfaces.html"
+  - title: Unified Manager 데이터베이스 디렉토리에 디스크 공간 추가
+    url: "/config/concept-adding-disk-space-to-the-unified-manager-database-directory.html"
+    entries:
+    - title: Linux 호스트의 데이터 디렉토리에 공간을 추가합니다
+      url: "/config/task-adding-space-to-the-data-directory-of-the-unified-manager-red-hat-enterprise-linux-host.html"
+    - title: VMware 가상 머신의 데이터 디스크에 공간 추가
+      url: "/config/task-adding-space-to-the-data-disk-of-the-vmware-virtual-machine.html"
+    - title: Microsoft Windows 서버의 논리 드라이브에 공간 추가
+      url: "/config/task-adding-space-to-the-data-disk-of-the-microsoft-windows-server.html"

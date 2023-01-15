@@ -1,0 +1,49 @@
+---
+section: install-vapp
+title: VMware vSphere 시스템에 Unified Manager를 설치합니다
+entries:
+- title: Active IQ Unified Manager 소개
+  url: "/install-vapp/concept-introduction-to-unified-manager.html"
+  entries:
+  - title: Unified Manager 서버의 기능
+    url: "/install-vapp/concept-what-the-unified-manager-server-does.html"
+  - title: Active IQ Unified Manager 제품 설명서
+    url: "/install-vapp/reference-oncommand-unified-manager-product-documentation.html"
+  - title: 설치 순서 개요
+    url: "/install-vapp/concept-overview-of-the-installation-sequence-um.html"
+- title: Unified Manager 설치 요구 사항
+  url: "/install-vapp/concept-requirements-for-installing-unified-manager.html"
+  entries:
+  - title: 가상 인프라 및 하드웨어 시스템 요구 사항
+    url: "/install-vapp/concept-virtual-infrastructure-or-hardware-system-requirements.html"
+  - title: VMware 소프트웨어 및 설치 요구 사항
+    url: "/install-vapp/reference-vmware-software-and-installation-requirements.html"
+  - title: 지원되는 브라우저
+    url: "/install-vapp/concept-browser-and-platform-requirements.html"
+  - title: 프로토콜 및 포트 요구 사항
+    url: "/install-vapp/reference-protocol-and-port-requirements.html"
+  - title: 워크시트를 작성합니다
+    url: "/install-vapp/reference-completing-the-worksheet-um.html"
+- title: Unified Manager 소프트웨어의 설치, 업그레이드 및 제거
+  url: "/install-vapp/concept-installing-upgrading-and-removing-unified-manager-software-on-vmware-vsphere.html"
+  entries:
+  - title: 배포 프로세스 개요
+    url: "/install-vapp/concept-overview-of-the-deployment-process.html"
+  - title: Unified Manager 구축
+    url: "/install-vapp/task-deploying-unified-manager-vapp.html"
+    entries:
+    - title: Unified Manager 설치 파일을 다운로드하는 중입니다
+      url: "/install-vapp/task-downloading-the-unified-manager-ova-file.html"
+    - title: Unified Manager 가상 어플라이언스 구축
+      url: "/install-vapp/task-deploying-the-unified-manager-virtual-appliance-vapp.html"
+  - title: Unified Manager 업그레이드
+    url: "/install-vapp/task-upgrading-unified-manager-vapp.html"
+    entries:
+    - title: Unified Manager 업그레이드 파일을 다운로드하는 중입니다
+      url: "/install-vapp/task-downloading-the-unified-manager-iso-image-vapp.html"
+    - title: Unified Manager 가상 어플라이언스 업그레이드
+      url: "/install-vapp/task-upgrading-the-unified-manager-virtual-appliance-vapp.html"
+  - title: Unified Manager 가상 머신을 재시작합니다
+    url: "/install-vapp/task-restarting-the-unified-manager-virtual-machine.html"
+  - title: Unified Manager를 제거하는 중입니다
+    url: "/install-vapp/task-removing-unified-manager-vapp.html"

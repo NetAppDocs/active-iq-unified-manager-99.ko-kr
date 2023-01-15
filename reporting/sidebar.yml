@@ -1,0 +1,143 @@
+---
+section: reporting
+title: 사용자 정의 보고서를 생성합니다
+entries:
+- title: Unified Manager 보고
+  url: "/reporting/concept-unified-manager-reporting.html"
+  entries:
+  - title: 보고서 생성을 위한 액세스 포인트
+    url: "/reporting/concept-reporting-access-points.html"
+    entries:
+    - title: 맞춤형 보고를 위해 액세스할 수 있는 Unified Manager 데이터베이스
+      url: "/reporting/concept-unified-manager-databases-accessible-for-reporting.html"
+    - title: 보고에 사용할 수 있는 Unified Manager REST API
+      url: "/reporting/generaltask-um-rest-apis-that-can-be-used-for-reporting.html"
+  - title: 보고서 이해
+    url: "/reporting/concept-understanding-reports.html"
+  - title: 보기 및 보고서 관계 이해
+    url: "/reporting/concept-understanding-the-view-and-reports-relationship.html"
+  - title: 보고서 유형
+    url: "/reporting/reference-types-of-reports.html"
+  - title: 보고 제한 사항
+    url: "/reporting/reference-reporting-limitations.html"
+- title: 보고서 작업
+  url: "/reporting/concept-working-with-reports.html"
+  entries:
+  - title: 보고서 워크플로
+    url: "/reporting/concept-report-work-flow.html"
+  - title: 빠른 시작 보고
+    url: "/reporting/task-reporting-quick-start.html"
+  - title: 예약된 보고서를 검색하는 중입니다
+    url: "/reporting/task-searching-for-a-scheduled-report.html"
+  - title: 보고서 사용자 정의
+    url: "/reporting/concept-customizing-reports.html"
+    entries:
+    - title: 열 사용자 지정
+      url: "/reporting/task-customize-columns.html"
+    - title: 데이터 필터링
+      url: "/reporting/task-filter-data.html"
+    - title: 데이터 정렬
+      url: "/reporting/task-sort-data.html"
+    - title: 검색을 사용하여 보기를 구체화합니다
+      url: "/reporting/task-search-to-refine-the-view.html"
+    - title: Excel을 사용하여 보고서를 사용자 지정합니다
+      url: "/reporting/task-using-excel-to-customize-your-report.html"
+  - title: 보고서를 다운로드하는 중입니다
+    url: "/reporting/task-downloading-reports.html"
+- title: 보고서 예약
+  url: "/reporting/concept-scheduling-reports.html"
+  entries:
+  - title: 보고서 예약
+    url: "/reporting/task-scheduling-a-report.html"
+    entries:
+    - title: 가져온 .rptdesign 보고서 예약
+      url: "/reporting/task-schedule-an-imported-report.html"
+  - title: 보고서 일정 관리
+    url: "/reporting/task-managing-report-schedules.html"
+    entries:
+    - title: 예약된 보고서 편집
+      url: "/reporting/task-editing-scheduled-reports.html"
+    - title: 예약된 보고서를 삭제하는 중입니다
+      url: "/reporting/task-deleting-scheduled-reports.html"
+- title: 샘플 사용자 지정 보고서
+  url: "/reporting/concept-sample-custom-reports.html"
+  entries:
+  - title: 클러스터 스토리지 보고서 사용자 지정
+    url: "/reporting/concept-customizing-cluster-storage-reports.html"
+    entries:
+    - title: 클러스터 모델별 용량을 볼 수 있는 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-capacity-by-cluster-model.html"
+    - title: 보고서를 생성하여 할당되지 않은 LUN 용량이 가장 많은 클러스터를 식별합니다
+      url: "/reporting/task-creating-a-report-to-identify-clusters-with-the-most-unallocated-lun-capacity.html"
+    - title: 보고서를 생성하여 사용 가능한 용량이 가장 많은 HA 쌍을 표시합니다
+      url: "/reporting/task-creating-a-report-to-view-ha-pairs-with-the-most-available-capacity.html"
+    - title: 보고서를 생성하여 이전 버전의 ONTAP를 실행하는 노드를 봅니다
+      url: "/reporting/task-creating-a-report-to-view-nodes-running-older-versions-of-ontap.html"
+  - title: 애그리게이트 용량 보고서 사용자 지정
+    url: "/reporting/concept-customizing-aggregate-capacity-reports.html"
+    entries:
+    - title: 보고서를 생성하여 전체 용량에 도달한 애그리게이트를 확인합니다
+      url: "/reporting/task-creating-a-report-to-view-aggregates-reaching-full-capacity.html"
+    - title: 80% 이상의 전체 애그리게이트를 볼 수 있는 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-aggregates-that-are-nearly-full.html"
+    - title: 초과 커밋된 집계를 보기 위한 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-aggregates-that-are-overcommitted.html"
+  - title: 볼륨 용량 보고서 사용자 지정
+    url: "/reporting/concept-customizing-volume-capacity-reports.html"
+    entries:
+    - title: 보고서를 생성하여 스냅샷 자동 삭제 기능이 꺼진 전체 용량에 근접하는 볼륨을 식별합니다
+      url: "/reporting/task-creating-a-report-to-identify-volumes-nearing-full-capacity-with-snapshot-autodelete-turned-off.html"
+    - title: 씬 프로비저닝이 해제된 볼륨에서 사용하는 공간을 식별하는 보고서를 생성합니다
+      url: "/reporting/task-creating-a-report-to-identify-space-used-by-volumes-with-thin-provisioning-disabled.html"
+    - title: 보고서를 생성하여 데이터를 클라우드 계층으로 이동해야 하는 FabricPool 애그리게이트에서 볼륨을 식별합니다
+      url: "/reporting/task-creating-a-report-to-identify-volumes-on-fabricpool-aggregates-that-should-move-data-to-the-cloud-tier.html"
+  - title: Qtree 용량 보고서 사용자 지정
+    url: "/reporting/concept-customizing-qtree-capacity-reports.html"
+    entries:
+    - title: 거의 가득 찬 qtree를 볼 수 있도록 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-qtrees-that-are-nearly-full.html"
+  - title: NFS 공유 보고서 사용자 지정
+    url: "/reporting/concept-customizing-nfs-share-reports.html"
+    entries:
+    - title: 액세스할 수 없는 마운트 경로가 있는 볼륨을 보기 위한 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-volumes-with-an-inaccessible-junction-path.html"
+    - title: 기본 엑스포트 정책을 사용하는 볼륨을 보기 위한 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-volumes-with-a-default-export-policy.html"
+  - title: 스토리지 VM 보고서 사용자 지정
+    url: "/reporting/concept-customizing-svm-reports.html"
+    entries:
+    - title: 보고서를 생성하여 최대 볼륨 제한에 도달한 스토리지 VM을 표시합니다
+      url: "/reporting/task-creating-a-report-to-view-svms-reaching-the-maximum-volume-limit.html"
+    - title: 중지된 스토리지 VM을 보기 위한 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-stopped-svms.html"
+  - title: 볼륨 관계 보고서 사용자 지정
+    url: "/reporting/concept-customizing-volume-relationship-reports.html"
+    entries:
+    - title: 실패 원인을 기준으로 볼륨 관계를 그룹화하는 보고서 생성
+      url: "/reporting/task-creating-a-report-to-group-volume-relationships-by-source-of-failure.html"
+    - title: 문제별로 볼륨 관계를 그룹화하는 보고서 생성
+      url: "/reporting/task-creating-a-report-to-group-volume-relationships-by-issue.html"
+    - title: 특정 시간 간격으로 볼륨 전송 추세를 볼 수 있는 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-volumes-at-specific-time-intervals.html"
+    - title: 실패한 볼륨 또는 성공한 볼륨 전송을 보기 위한 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-failed-or-successful-volume-transfers.html"
+    - title: 전송 크기에 따라 볼륨 전송을 보는 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-volume-transfers-based-on-transfer-size.html"
+    - title: 일별 그룹별 볼륨 전송을 보기 위한 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-volume-transfers-grouped-by-day.html"
+  - title: 볼륨 성능 보고서 사용자 지정
+    url: "/reporting/concept-customizing-volume-performance-reports.html"
+    entries:
+    - title: FabricPool이 지원되지 않는 aggregate에서 많은 양의 콜드 데이터가 있는 볼륨을 보기 위한 보고서 생성
+      url: "/reporting/task-creating-a-report-to-view-volumes-with-a-high-amount-of-cold-data-on-a-disk-type-that-is-not-fabricpool.html"
+- title: Microsoft Excel 보고서 예제
+  url: "/reporting/concept-sample-microsoft-excel-reports.html"
+  entries:
+  - title: 집계 용량 테이블 및 차트를 보여 주는 보고서 생성
+    url: "/reporting/task-creating-a-report-to-view-capacity.html"
+  - title: 총 용량 대 사용 가능한 용량 차트를 보여 주는 보고서 생성
+    url: "/reporting/task-creating-a-report-to-view-aggregate-capacity-charts.html"
+  - title: 보고서를 생성하여 사용 가능한 볼륨 용량 차트를 표시합니다
+    url: "/reporting/task-creating-a-report-to-view-available-volume-capacity-charts.html"
+  - title: 보고서를 생성하여 사용 가능한 IOPS가 가장 높은 애그리게이트를 확인합니다
+    url: "/reporting/task-creating-a-report-to-view-aggregates-that-have-the-most-available-iops.html"

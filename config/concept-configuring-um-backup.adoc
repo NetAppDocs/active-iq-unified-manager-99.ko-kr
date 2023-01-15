@@ -1,0 +1,16 @@
+---
+permalink: config/concept-configuring-um-backup.html 
+sidebar: sidebar 
+keywords:  
+summary: 호스트 시스템과 를 통해 유지보수 콘솔에서 수행할 구성 단계 세트를 통해 Unified Manager의 백업 기능을 구성할 수 있습니다. 
+---
+= Unified Manager 백업 구성
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+호스트 시스템과 를 통해 유지보수 콘솔에서 수행할 구성 단계 세트를 통해 Unified Manager의 백업 기능을 구성할 수 있습니다.
+
+구성 단계에 대한 자세한 내용은 _Active IQ ® Unified Manager Workflow Guide for Managing Cluster Health_에서 " 백업 및 복원 작업 관리 "를 참조하십시오.

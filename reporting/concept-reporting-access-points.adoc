@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept-reporting-access-points.html 
+sidebar: sidebar 
+keywords:  
+summary: Unified Manager에서 클러스터에 대한 정보를 수집하여 UI, MySQL 데이터베이스 쿼리 및 REST API에서 보고서를 생성할 수 있습니다. 
+---
+= 보고서 생성을 위한 액세스 포인트
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager에서 클러스터에 대한 정보를 수집하여 UI, MySQL 데이터베이스 쿼리 및 REST API에서 보고서를 생성할 수 있습니다.
+
+이 섹션에서는 UI를 통한 Unified Manager 보고 및 일정에 대해 다룹니다.
+
+Unified Manager에서 제공하는 보고 기능에 액세스할 수 있는 세 가지 방법이 있습니다.
+
+* UI의 인벤토리 페이지에서 직접 데이터 추출
+* ODBC(Open Database Connectivity) 및 ODBC 도구를 사용하여 사용 가능한 모든 개체에 액세스합니다.
+* Unified Manager REST API를 실행하여 검토할 정보를 반환합니다.
+
+
+이 섹션에서는 UI를 통한 Unified Manager 보고 및 일정에 대해 다룹니다.
