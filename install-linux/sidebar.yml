@@ -8,8 +8,6 @@ entries:
   entries:
   - title: Unified Manager 서버의 기능
     url: "/install-linux/concept-what-the-unified-manager-server-does.html"
-  - title: Active IQ Unified Manager 제품 설명서
-    url: "/install-linux/reference-oncommand-unified-manager-product-documentation.html"
   - title: 설치 순서 개요
     url: "/install-linux/concept-overview-of-the-installation-sequence-um.html"
 - title: Unified Manager 설치 요구 사항

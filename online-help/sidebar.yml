@@ -1480,12 +1480,3 @@ entries:
     url: "/online-help/reference-user-not-found.html"
   - title: 다른 인증 서비스를 사용하여 LDAP를 추가하는 데 문제가 있습니다
     url: "/online-help/reference-issue-with-adding-ldap-using-other-authentication-services.html"
-- title: 저작권, 상표 및 기계 번역
-  url: "/online-help/reference-copyright-and-trademark.html"
-  entries:
-  - title: 저작권
-    url: "/online-help/reference-copyright.html"
-  - title: 상표
-    url: "/online-help/reference-trademark.html"
-  - title: 기계 번역
-    url: "/online-help/generic-machine-translation-disclaimer.html"

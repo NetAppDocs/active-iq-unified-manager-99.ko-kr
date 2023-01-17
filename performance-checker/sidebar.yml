@@ -9,8 +9,6 @@ entries:
     url: "/performance-checker/concept-unified-manager-performance-monitoring-features.html"
   - title: 스토리지 시스템 성능을 관리하는 데 사용되는 Unified Manager 인터페이스
     url: "/performance-checker/concept-unified-manager-interfaces-used-to-manage-storage-system-performance.html"
-  - title: Active IQ Unified Manager 제품 설명서
-    url: "/performance-checker/reference-oncommand-unified-manager-product-documentation.html"
   - title: 클러스터 구성 및 성능 데이터 수집 작업
     url: "/performance-checker/concept-cluster-configuration-and-performance-data-collection-activity.html"
   - title: 데이터 연속성 수집 주기는 얼마입니까
