@@ -1759,7 +1759,6 @@
   <block id="ebbab74c7a0bca0b34014d8b31f4b555" category="paragraph">지금 포트를 변경하고 Unified Manager를 다시 시작할지 묻는 메시지가 표시됩니다.</block>
   <block id="5baed249a436bad64304ca18c80b1046" category="list-text">포트를 변경하고 Unified Manager를 다시 시작하려면 * y * 를 입력합니다.</block>
   <block id="f4dbd114406d92353e8a1e1c4fd9c80e" category="list-text">유지보수 콘솔을 종료합니다.</block>
-  <block id="baec228da07f4117ab287d4e7ff3450d" category="paragraph">변경 후에는 Unified Manager 웹 UI에 액세스할 수 있도록 URL에 새 포트 번호를 포함해야 합니다(예: _https://host.company.com:1234_, _https://12.13.14.15:1122_ 또는 _https://[2001:db8:0:1]:2123_).</block>
   <block id="a34cd6f4c94c5ba3e746a43277da2b01" category="summary">원격 인증이 활성화된 경우 그룹 구성원이 아닌 개별 사용자만 Unified Manager에 원격으로 인증할 수 있도록 중첩된 그룹 인증을 비활성화할 수 있습니다. Active Directory 인증 응답 시간을 향상시키려면 중첩된 그룹을 사용하지 않도록 설정할 수 있습니다.</block>
   <block id="43c77f80d73d1ad18307da186ce2dfb7" category="doc">원격 인증에서 중첩 그룹을 해제합니다</block>
   <block id="127ee1432ace68462d32845133dd493a" category="list-text">중첩된 그룹을 사용하지 않도록 설정하는 것은 Active Directory를 사용하는 경우에만 적용됩니다.</block>
@@ -1917,7 +1916,6 @@
   <block id="860a4ae959c1f38d2bdb3672dbc6e68f" category="list-text">이름 * 을 클릭하고 을 입력합니다<block ref="5a62e78cb11c6a68fcf30f73ceeb07ce" prefix=" " category="inline-code"></block> 경고 이름 * 필드에 입력합니다.</block>
   <block id="4687a45557c6de6bf5014c298ba19516" category="list-text">리소스 * 를 클릭하고 포함 탭의 드롭다운 목록에서 * 볼륨 * 을 선택합니다.</block>
   <block id="8cca26a201b0b43bca19bfb283b369be" category="list-text">를 입력합니다<block ref="900150983cd24fb0d6963f7d28e17f72" prefix=" " category="inline-code"></block> 이름에 ""abc""가 포함된 볼륨을 표시하기 위한 * 포함 * 필드.</block>
-  <block id="4db3be3dab523c61caf6ee4e5ad56eb1" category="list-text">를 선택합니다<block ref="0343dc028b8904b58f0fda8322166a90" category="inline-xref-macro-rx"></block>[사용 가능한 자원]에서 [선택한 자원]으로 이동합니다.</block>
   <block id="f3afa732be6de123d4fdd89d63e6c867" category="list-text">제외 * 를 클릭하고 를 입력합니다<block ref="d16fb36f0911f878998c136191af705e" prefix=" " category="inline-code"></block> 이름 포함 * 필드에서 * 추가 * 를 클릭합니다.</block>
   <block id="995611eb3ed7d85cb25d639ccb379ab7" category="list-text">이벤트 * 를 클릭하고 이벤트 심각도 필드에서 * 긴급 * 을 선택합니다.</block>
   <block id="e442773ac882688a850ce3cb0aa40df6" category="list-text">Matching Events 영역에서 * All Critical Events * 를 선택하고 Selected Events 영역으로 이동합니다.</block>
@@ -5423,7 +5421,6 @@
   <block id="59ed1d4c045e5b70eb07c1bcf26e632f" category="paragraph">손상된 RAID 디스크와 그로 인한 오프라인 호스트 집계로 인해 볼륨 오프라인 상태가 발생했는지 확인한 후 해당 관리자 또는 운영자에게 문의하여 손상된 디스크를 수동으로 교체하고 애그리게이트를 다시 온라인으로 전환합니다.</block>
   <block id="f3011abc0f2cf46c0f0e4bb1bb2a0bc0" category="summary">볼륨/상태 세부 정보 페이지를 사용하여 용량, 스토리지 효율성, 구성, 보호 등과 같은 선택한 볼륨에 대한 자세한 정보를 볼 수 있습니다. 주석 및 이벤트가 생성됩니다. 또한 해당 볼륨에 대한 관련 개체 및 관련 경고에 대한 정보를 볼 수 있습니다.</block>
   <block id="e57daf17402a23e1c67326454713c519" category="doc">볼륨/상태 세부 정보 페이지</block>
-  <block id="62de64540d85589bdce233c0192ffa51" category="list-text"><block ref="ef85462d98138bd3d2a4c885e92271b2" category="inline-xref-macro-rx"></block></block>
   <block id="d291617aef6e2c71ee50d482ca30a639" category="paragraph">명령 단추를 사용하여 선택한 볼륨에 대해 다음 작업을 수행할 수 있습니다.</block>
   <block id="bc70e10629f9ad610a953a22db460218" category="paragraph">볼륨/성능 세부 정보 페이지로 이동할 수 있습니다.</block>
   <block id="50b1ea3c76cb6b1a0b5c5c488d609e0d" category="paragraph">선택한 볼륨에 경고를 추가할 수 있습니다.</block>
@@ -8426,9 +8423,6 @@
   <block id="29cc3ee54d22c8d34f0703b0fdf101a9" category="list-text">설치 전 스크립트를 실행하여 Unified Manager 설치와 충돌할 수 있는 시스템 구성 설정이나 설치된 소프트웨어가 없는지 확인합니다.<block ref="aafaead82da84c908c0f4e4b6bdfd43c" prefix=" " category="inline-code"></block></block>
   <block id="91ddae155de651c77081a04807514b9a" category="paragraph">사전 설치 스크립트는 시스템에 유효한 Red Hat 서브스크립션이 있으며 필요한 소프트웨어 리포지토리에 액세스할 수 있는지 확인합니다. 스크립트에서 문제가 식별되면 Unified Manager를 설치하기 전에 문제를 해결해야 합니다.</block>
   <block id="b06597a497eb21d391372afb93828b7b" category="paragraph">Red Hat Enterprise Linux 8 시스템의 경우 JDK 11-OpenJDK, p7zip 및 AppStream 리포지토리에서 제공하는 기타 소프트웨어 패키지가 있는 내부 저장소가 있는 경우 AppStream 리포지토리를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령을 실행합니다.</block>
-  <block id="834ffaadb040d157daea2be06216315a" category="inline-xref">7단계</block>
-  <block id="70c52f8fba5e2a6610cbd7ac8cec8ea4" category="inline-xref">8단계</block>
-  <block id="f69ffa9e2530c93eec122bfebb78eb0d" category="list-text">반드시 수행해야 합니다 <block ref="1cab4d98a1d8e443e4fb0ed97249d177" category="inline-xref-macro-rx"></block>_전용_ 시스템이 인터넷에 연결되어 있지 않은 경우 설치에 필요한 패키지를 수동으로 다운로드해야 합니다. 시스템에 인터넷이 연결되어 있고 필요한 모든 패키지를 사용할 수 있는 경우 로 이동합니다 <block ref="1875f7c44e96bee93d30273b4a96bc63" category="inline-xref-macro-rx"></block>. 인터넷에 연결되어 있지 않거나 Red Hat Enterprise Linux 리포지토리를 사용하지 않는 시스템의 경우 다음 단계를 수행하여 필요한 패키지가 있는지 확인한 다음 해당 패키지를 다운로드하십시오.</block>
   <block id="8f18298a036e529263de6c20caa7bd22" category="list-text">Unified Manager를 설치할 시스템에서 사용 가능한 패키지 및 사용할 수 없는 패키지 목록을 봅니다.<block ref="073139234fb3d773b942ceabd7f71696" prefix=" " category="inline-code"></block></block>
   <block id="0f6821f28720fad4bff6027633ab91c0" category="paragraph">""설치 중:"" 섹션의 항목은 현재 디렉터리에서 사용할 수 있는 패키지이며 ""종속성 설치:"" 섹션의 항목은 시스템에 없는 패키지입니다.</block>
   <block id="91bb85c174a357b715c58e93154ae9cd" category="list-text">인터넷에 액세스할 수 있는 시스템에서 누락된 패키지를 다운로드합니다.<block ref="7e30708965ebb4fb2d6f096fff739831" prefix=" " category="inline-code"></block></block>
@@ -8686,7 +8680,6 @@
   <block id="5ddcf17f54788a5bb9148e8671562c06" category="list-text">* 포트 *</block>
   <block id="0bf7a4bae799698d9fb35f2f052c055b" category="paragraph">클러스터에 연결하는 데 사용되는 포트 번호를 지정할 수 있습니다. HTTPS의 기본 포트는 443입니다.</block>
   <block id="aa1daa474c7a5ca26676f22debadc497" category="doc">알 수 없는 인증 오류입니다</block>
-  <block id="9ff702207c5c34d0a659bd2093b21d08" category="list-text">* 문제 *</block>
   <block id="ef5d4fecdd3493d1580a29894128aa78" category="paragraph">원격 사용자 또는 그룹을 추가, 편집, 삭제 또는 테스트하는 등의 인증 관련 작업을 수행하는 경우 다음 오류 메시지가 표시될 수 있습니다.<block ref="aa1daa474c7a5ca26676f22debadc497" prefix=" " category="inline-code"></block>.</block>
   <block id="3bef6104c92bf17bdfdf66c9a257bbfc" category="list-text">* 원인 *</block>
   <block id="603985874695e48f0f343eddd9f00df0" category="paragraph">이 문제는 다음 옵션에 대해 잘못된 값을 설정한 경우 발생할 수 있습니다.</block>
@@ -9329,7 +9322,6 @@
   <block id="80687a881a315fb61a2b48a6e60b4a5a" category="paragraph">알림을 효과적으로 추적할 수 있도록 알림에 대한 설명을 제공해야 합니다.</block>
   <block id="ddcf50c29294d4414f3f7c1bbc892cb5" category="list-text">리소스</block>
   <block id="17f9c57d264c89951df5c1db82fd7648" category="paragraph">어떤 물리적 또는 논리적 리소스에 경고가 필요한지 결정해야 합니다. 필요에 따라 자원을 포함하거나 제외할 수 있습니다. 예를 들어, 경고를 구성하여 애그리게이트를 면밀히 모니터링하려면 리소스 목록에서 필요한 애그리게이트를 선택해야 합니다.</block>
-  <block id="9b4e9eae14325b35785f555c2b80c5c3" category="paragraph">자원 범주를 선택한 경우(예: *<block ref="3d99572ec2bdf0c3d8dc014395d1fc4b" category="inline-xref-macro-rx"></block>*, 그러면 해당 범주의 모든 개체에 대한 경고가 표시됩니다.</block>
   <block id="b1f0bb9e4119cac23af781dbcb98eede" category="paragraph">클러스터를 리소스로 선택해도 해당 클러스터 내의 스토리지 객체는 자동으로 선택되지는 않습니다. 예를 들어, 모든 클러스터에 대해 모든 중요 이벤트에 대한 알림을 생성하는 경우 클러스터 중요 이벤트에 대한 알림만 받게 됩니다. 노드, 애그리게이트 등의 중요 이벤트에 대한 알림을 받지 못합니다.</block>
   <block id="e0b18d5b04f677d427e5a029d591d7a9" category="list-text">이벤트 심각도입니다</block>
   <block id="e9f9b8abaf7eb3e0540aa0a9395b4586" category="paragraph">지정된 심각도 유형(Critical, Error, Warning)의 이벤트가 경고를 트리거할지, 트리거할 경우 어떤 심각도 유형을 트리거할지 결정해야 합니다.</block>
@@ -9829,8 +9821,6 @@
   <block id="9031cd728998bae2a317c0ada2c06c50" category="list-text">HTTPS 인증서 설치 * 를 클릭합니다.</block>
   <block id="dafb1ec2f1328a43e62f2e17ec152ee1" category="list-text">표시되는 대화 상자에서 * 파일 선택... * 을 클릭하여 업로드할 파일을 찾습니다.</block>
   <block id="5da1f8bf7b38bb2a074639707c42026e" category="list-text">파일을 선택한 다음 * 설치 * 를 클릭하여 파일을 설치합니다.</block>
-  <block id="9d6e63ada90eb8212c721413e3cbddb4" category="inline-link-macro">concept-installing-a-https-certificate-generated-using-external-tools.dita를 참조하십시오</block>
-  <block id="48602b7b778981dcf31178d5926d956e" category="paragraph"><block ref="48602b7b778981dcf31178d5926d956e" category="inline-link-macro-rx"></block></block>
   <block id="04a57370fa2200d77ef5928f7670b3d3" category="section-title">인증서 체인의 예</block>
   <block id="7c051c353986dd53c30c276ec156f68f" category="paragraph">다음 예제에서는 인증서 체인 파일이 표시되는 방법을 보여 줍니다.</block>
   <block id="d96a1cff62b479b326f5ebda571bc045" category="summary">보호 이벤트는 작업이 실패했거나 중단되었는지 여부를 알려 사용자가 문제를 모니터링할 수 있도록 합니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 및 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다.</block>
@@ -10947,7 +10937,6 @@
   <block id="971bc243bf5be898efaebd3d2c7dc2ff" category="paragraph">경고를 트리거할 리소스를 포함할 수 있습니다. 문자열과 일치하는 리소스를 그룹화하는 텍스트 문자열을 지정하고 경고에 포함할 이 그룹을 선택할 수 있습니다. 예를 들어 이름이 ""abc"" 문자열을 포함하는 모든 볼륨을 그룹화할 수 있습니다.</block>
   <block id="a331a53ce7ff01e69798721f7bf83d7c" category="list-text">* 제외 *</block>
   <block id="706fa2dc0c7413cf984bdc7899e18339" category="paragraph">알림을 트리거하지 않을 리소스를 제외할 수 있습니다. 예를 들어 이름이 ""xyz"" 문자열을 포함하는 모든 볼륨을 제외할 수 있습니다.</block>
-  <block id="f2b183916ef051011bf3b2abce3ce054" category="paragraph">제외 탭은 특정 자원 유형의 모든 자원을 선택한 경우에만 표시됩니다(예: <block ref="0350a5968a3cf533bb7edcb37c899b0b" category="inline-xref-macro-rx"></block> 또는 <block ref="72238bf76c964df49e0c21f6a354496b" category="inline-xref-macro-rx"></block>.</block>
   <block id="a55c7a5790be227c0b0411407179e814" category="paragraph">자원이 지정한 포함 및 제외 규칙을 모두 준수하는 경우 제외 규칙이 포함 규칙보다 우선하며 이벤트에 대해 알림이 생성되지 않습니다.</block>
   <block id="7f3053c56b9c2ab27d983678f88c47e3" category="paragraph">이 영역에서 알림을 생성할 이벤트를 선택할 수 있습니다. 특정 심각도 또는 이벤트 집합을 기반으로 이벤트에 대한 알림을 생성할 수 있습니다.</block>
   <block id="6e19c7085382cae7c4da3e3d5c5ed218" category="paragraph">둘 이상의 이벤트를 선택하려면 Ctrl 키를 누른 상태에서 선택해야 합니다.</block>
@@ -11435,7 +11424,6 @@
   <block id="11afb48f4925715910142b11a6d18d2c" category="paragraph">CIFS 공유에 연결된 LIF를 이동할 때 CIFS 공유에 액세스하는 클라이언트의 연결이 끊어집니다. CIFS 공유에 대한 읽기 또는 쓰기 요청이 모두 중단됩니다.</block>
   <block id="642ceb2c24ddc880d3f99ceceb9a302b" category="paragraph">ONTAP 명령을 사용하여 로드 밸런싱을 구성합니다. 자세한 내용은 ONTAP 네트워킹 설명서를 참조하십시오.</block>
   <block id="cc84e4cd9dea8de50b595a4b3e47bc6b" category="paragraph">ONTAP System Manager와 ONTAP CLI 명령을 사용하여 LIF를 수동으로 이동할 수 있습니다.</block>
-  <block id="50db78f7c6f8311cd52dcb3e51a3b89d" category="paragraph">을 참조하십시오 <block ref="16e87216931e426be7c40c44d34094b9" category="inline-link-macro-rx"></block> 여기에 표시된 구성 요소에 대한 설명은 를 참조하십시오.</block>
   <block id="b043e78bd977739dcd5bdd93a7e424cb" category="summary">볼륨 임계값 페이지에서는 모니터링되는 볼륨에 대한 글로벌 상태 임계값을 구성할 수 있습니다. 개별 볼륨 또는 모든 볼륨에 대해 전역적으로 임계값을 설정할 수 있습니다. 옵션을 전역적으로 구성하면 모든 개체의 기본값이 수정됩니다. 그러나 개체 수준에서 기본값이 변경된 경우에는 글로벌 값이 수정되지 않습니다.</block>
   <block id="d9f1a0d91cce62f9674c8901adcc0490" category="doc">볼륨 임계값 페이지</block>
   <block id="4dd7820433162256e257eb1466ae2393" category="paragraph">용량, 볼륨 스냅샷 복사본, qtree 할당량, 볼륨 증가, inode에 대한 임계값을 설정할 수 있습니다.</block>
@@ -11685,7 +11673,6 @@
   <block id="7b2ca92a0e10c48d7631c9609a6d7067" category="paragraph">지연 시간 및 활동 차트에는 커서를 차트 위에 놓으면 최상위 워크로드의 이름이 표시됩니다. 차트 오른쪽의 워크로드 유형 메뉴를 클릭하면 _Sharks_, _bullies_, 또는 _inuss_ 등의 이벤트 역할에 따라 워크로드를 정렬할 수 있으며 경합 중인 클러스터 구성 요소의 지연 시간 및 사용 현황에 대한 세부 정보를 표시합니다. 실제 값을 예상 값과 비교하여 워크로드가 예상 지연 시간 또는 사용 범위를 벗어난 시점을 확인할 수 있습니다. 을 참조하십시오 <block ref="9f2938dff180af01fa93d55b4de76b26" category="inline-xref-macro-rx"></block>.</block>
   <block id="db69501da9f35d5723a50c4a668d5bb1" category="paragraph">지연 시간이 최대 편차로 정렬되면 사용자 정의 워크로드에만 지연 시간이 적용되므로 시스템 정의 워크로드가 표에 표시되지 않습니다. 지연 시간이 매우 짧은 워크로드는 테이블에 표시되지 않습니다.</block>
   <block id="e5ee071b3b431489cbbdfadb0adb789c" category="inline-link-macro">이벤트 정의</block>
-  <block id="9cd94be50f953ca5b3d67273e067ae6c" category="paragraph">동적 성능 임계값에 대한 자세한 내용은 를 참조하십시오 <block ref="0535bb9dbc4ba4c8dec14b625dcb4a64" category="inline-link-macro-rx"></block>. Unified Manager에서 워크로드의 순위를 결정하고 정렬 순서를 결정하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>.</block>
   <block id="7427acf420f5207b8ae1131352d073c7" category="paragraph">그래프의 데이터는 이벤트를 마지막으로 분석하기 전에 24시간 동안의 성능 통계를 보여줍니다. 각 워크로드의 실제 값과 예상 값은 워크로드가 발생한 시간을 기준으로 합니다. 예를 들어, 이벤트가 감지된 후 워크로드가 이벤트에 포함될 수 있으므로 이벤트 감지 시 성능 통계가 값과 일치하지 않을 수 있습니다. 기본적으로 워크로드는 지연 시간의 최대(최고) 편차별로 정렬됩니다.</block>
   <block id="2545bfbff2b57fe22210b418aa7b0bde" category="paragraph">Unified Manager에서는 최대 30일간 5분간 기간별 성능 및 이벤트 데이터를 유지할 수 있으므로, 30일이 경과되지 않은 경우 성능 데이터가 표시되지 않습니다.</block>
   <block id="a1fb5903985467b316b77afec2a094fa" category="list-text">* 워크로드 정렬 열 *</block>
@@ -11693,7 +11680,6 @@
   <block id="ad66c9e4c4aac43f31d0399bd4bda649" category="paragraph">마지막 분석 동안 워크로드의 지연 시간에 이벤트가 미치는 영향을 표시합니다.</block>
   <block id="733e7290b02f4bcfc4024e1c7717761e" category="list-text">* 구성 요소 사용 열 *</block>
   <block id="b0a053673931b228f989352c64b39510" category="inline-link-macro">워크로드 성능 측정</block>
-  <block id="7217fed83eafaf5cd5c315f3fae6bdc0" category="paragraph">경합하는 클러스터 구성 요소의 워크로드 사용에 대한 세부 정보를 표시합니다. 그래프에서 실제 사용량은 파란색 선입니다. 빨간색 막대는 감지 시간부터 마지막으로 분석된 시간까지 이벤트 지속 시간을 강조 표시합니다. 자세한 내용은 을 참조하십시오 <block ref="441c1f0640ee23e8a572ef20ebbdc844" category="inline-link-macro-rx"></block>.</block>
   <block id="6b3abe7014911eaecd1bb9f29044ebe9" category="paragraph">네트워크 구성요소의 경우, 네트워크 성능 통계는 클러스터 외부의 활동에서 얻을 수 있기 때문에 이 열은 표시되지 않습니다.</block>
   <block id="c1488620d5b7412ffad628b521ecbba0" category="list-text">* 구성 요소 사용 *</block>
   <block id="63c1fe7ae0c47abf05be33ca259c4db4" category="paragraph">QoS 정책 그룹 구성 요소에 대한 네트워크 처리, 데이터 처리 및 집계 구성 요소 또는 작업 내역(백분율)의 사용률 기록을 표시합니다. 네트워크 또는 상호 연결 구성 요소에 대한 차트는 표시되지 않습니다. 통계를 가리켜 특정 시점의 사용 통계를 볼 수 있습니다.</block>
@@ -11818,10 +11804,7 @@
   <block id="baa12b742399c6a3ac8d5e607e65f52f" category="section-title">설정 사용자 정의</block>
   <block id="56af56dc038418e1a14eeaf507c69a2d" category="paragraph">이 기능을 활성화하면 ONTAP 환경에 맞게 규정 준수 모니터링에 대한 설정을 사용자 지정할 수 있습니다. 이러한 설정은 관련 보안 이벤트 및 관리 작업을 트리거합니다. 다음 단계를 수행하십시오.</block>
   <block id="e9820cac1de73e6a858b577124212802" category="list-text">사용자 정의 * 를 클릭합니다. 보안 대시보드 설정 사용자 지정 팝업이 나타납니다.</block>
-  <block id="bcb6a2df7b5f2d9c00f84273cf8b97f3" category="inline-link-macro">* 클러스터 규정 준수 범주 *</block>
-  <block id="dbac0ffb488a528a37ad9c1bdbdfb3fc" category="list-text">ONTAP 클러스터에 대한 사용자 정의 설정을 활성화 또는 비활성화하려면 클러스터에 대한 * 일반 설정 * 선택을 확장합니다. 클러스터 규정 준수를 사용자 지정하는 옵션에 대한 자세한 내용은 을 참조하십시오 <block ref="e4a50398e2a3c53a298bf2d01182ec03" category="inline-link-macro-rx"></block>.</block>
   <block id="1b384d589c8bfd9a5acdde4674d71d8b" category="inline-link-macro">스토리지 VM 규정 준수 범주</block>
-  <block id="a72c9443e3c07d7b6a6ae97a8e0dddcd" category="list-text">스토리지 VM에 대한 사용자 지정 설정을 활성화하거나 비활성화하려면 스토리지 VM에 대한 * 일반 설정 * 을 확장합니다. 스토리지 VM 규정 준수를 사용자 지정하는 옵션에 대한 자세한 내용은 를 참조하십시오 <block ref="c983d9b47226bdff11cdd680675802bc" category="inline-link-macro-rx"></block>.</block>
   <block id="a9d3b46efc0c2c9f42d82faeca52f076" category="list-text">ONTAP에서 AutoSupport 메시지를 보내는 데 HTTPS 전송을 사용할지 여부를 지정할 수도 있습니다.</block>
   <block id="4c1327ac7a730c0089806c8663dec639" category="list-text">인증 설정을 활성화하면 기본 ONTAP 관리자 사용자에 대한 알림이 Unified Manager에서 발생합니다.</block>
   <block id="b846d1144d90307e0cfa35b918a98a98" category="doc">사용자를 찾을 수 없습니다</block>
@@ -12336,7 +12319,6 @@
   <block id="9d880624261f4ced2ab74566af6f64a3" category="paragraph">경고를 활성화 또는 비활성화할 수 있습니다.</block>
   <block id="5cdb12198877fb739ad076fe6760b905" category="paragraph">이 영역에서는 알림을 트리거할 동적 규칙에 따라 개별 리소스를 선택하거나 리소스를 그룹화할 수 있습니다. 드롭다운 목록에서 리소스 유형을 선택하여 자원을 검색하거나 정확한 자원 이름을 지정하여 특정 자원을 표시할 수 있습니다.</block>
   <block id="e5ab2ea3d777f895fc784fa6842acbee" category="paragraph">경고를 트리거할 리소스를 포함할 수 있습니다. 문자열과 일치하는 리소스를 그룹화하는 텍스트 문자열을 지정하고 경고에 포함할 이 그룹을 선택할 수 있습니다. 예를 들어 이름이 ""vol0"" 문자열을 포함하는 모든 볼륨을 그룹화할 수 있습니다.</block>
-  <block id="74dd0c8a01bae4b966aefe5427a532b0" category="paragraph">제외 탭은 특정 자원 유형의 모든 자원(예: <block ref="0350a5968a3cf533bb7edcb37c899b0b" category="inline-xref-macro-rx"></block> 또는 <block ref="72238bf76c964df49e0c21f6a354496b" category="inline-xref-macro-rx"></block>.</block>
   <block id="94c9150606505bd90fdfe39d973bf119" category="paragraph">이 영역에서 알림을 트리거할 이벤트를 선택할 수 있습니다. 특정 심각도 또는 이벤트 세트에 따라 이벤트에 대한 알림을 트리거할 수 있습니다.</block>
   <block id="03a76b4d3060d632bd26064b59c39af0" category="paragraph">지정한 문자가 포함된 이름의 이벤트를 선택할 수 있습니다.</block>
   <block id="40bed07985ab2c796628427f46f3a643" category="paragraph">이 영역에서 알림 방법 및 알림 빈도를 지정할 수 있습니다.</block>
@@ -12730,7 +12712,6 @@
   <block id="20380496f33f2ca66b5997b1caf40295" category="list-text">이름 * 을 클릭하고 알림의 이름과 설명을 입력합니다.</block>
   <block id="0d461a80709dd3328371663bccc63f4e" category="list-text">리소스 * 를 클릭한 다음 * 포함 * 탭을 선택합니다.</block>
   <block id="a2349ca3aa3547eac5b8f26aba860408" category="list-text">드롭다운 목록에서 * Volume * 을 선택한 다음 를 입력합니다<block ref="2b0d59c7031769e80c8e5118b6ec7694" prefix=" " category="inline-code"></block> 이름에 ""vol1"이 포함된 볼륨을 표시하기 위한 * * 포함 * 필드에서.</block>
-  <block id="e0667911ce742192fb30ca466b525c43" category="list-text">를 선택합니다<block ref="64f00a2ce12e2238805f98ba4ff31dd0" category="inline-xref-macro-rx"></block>* Available Resources * 영역에서 * Selected Resources * 영역으로 이동합니다.</block>
   <block id="712849bad1aaebf5cae779a3be975db3" category="list-text">Exclude * (제외 *) 탭을 선택하고 * Volume * (볼륨 *)을 선택한 후 를 입력합니다<block ref="6b96f04868a15574a98b70cc112af117" prefix=" " category="inline-code"></block> 이름 포함 * 필드에서 * 추가 * 를 클릭합니다.</block>
   <block id="8b52fb8e7a4095e169cb1109673b0758" category="paragraph">SVM ""VS1-DR""에서 볼륨 ""vol1""에 대한 알림이 생성되지 않습니다.</block>
   <block id="e4f547cf69e9fdc47d2f50b618004d5c" category="list-text">Events * 를 클릭하고 볼륨에 적용할 이벤트 또는 이벤트를 선택합니다.</block>
@@ -13110,4 +13091,20 @@
   <block id="9189a17a0b9197d3243162eb3951a42e" category="paragraph"><block ref="95f8b16a4dbd2fadc67eaff9a5242c74" prefix="" category="inline-code"></block></block>
   <block id="1808b5aaf7bd49816b66667808cd4cc7" category="paragraph"><block ref="b506087ff19db2de96b73b035cc1d174" prefix="" category="inline-code"></block></block>
   <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> MySQL Server를 시작 및 중지하는 데 필요한 데몬 프로그램입니다.</block>
+  <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">를 다운로드할 수 있습니다<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 루트 인증서가 포함된 파일, a<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> 파일, 및<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> Unified Manager를 가상 어플라이언스로 구축하여 파일 및 구축</block>
+  <block id="299c06148a9e9a56e7af6bec06118cc3" category="list-text">Available Resources * 영역에서 * \&lt;&lt;All Volumes whose name contains 'vol1'&gt;&gt; * 를 선택하고 * Selected Resources * 영역으로 이동합니다.</block>
+  <block id="e06c4d39deded3fa995441b19249d214" category="list-text">Available Resources 영역에서 * \&lt;&lt;All Volumes whose name contains 'abc'&gt;&gt; * 를 선택하고 Selected Resources 영역으로 이동합니다.</block>
+  <block id="b64529f9e389236b9f2566781686af29" category="paragraph">동적 성능 임계값에 대한 자세한 내용은 를 참조하십시오 <block ref="b14b5e4f6cbe4b301154269a772681ba" category="inline-xref-macro-rx"></block>. Unified Manager에서 워크로드의 순위를 결정하고 정렬 순서를 결정하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>.</block>
+  <block id="96d692837100f5154eb4c4e2945e5eb7" category="paragraph">경합하는 클러스터 구성 요소의 워크로드 사용에 대한 세부 정보를 표시합니다. 그래프에서 실제 사용량은 파란색 선입니다. 빨간색 막대는 감지 시간부터 마지막으로 분석된 시간까지 이벤트 지속 시간을 강조 표시합니다. 자세한 내용은 을 참조하십시오 <block ref="c675c86402e927afb70b1b330e173e9e" category="inline-xref-macro-rx"></block>.</block>
+  <block id="4df85d53bab21b33d7555a708130659f" category="paragraph">제외 탭은 특정 자원 유형의 모든 자원(예: \&lt;&lt;All Volumes&gt;&gt; 또는 \&lt;&lt;All Volumes whose name contains '_xyz_'&gt;&gt;)을 선택한 경우에만 표시됩니다.</block>
+  <block id="1ca421dc51b9370ab8a0d77fbb5f0ff2" category="paragraph">제외 탭은 특정 자원 유형의 모든 자원(예: \&lt;&lt;All Volumes&gt;&gt; 또는 \&lt;&lt;All Volumes whose name contains '_xyz_'&gt;&gt;)을 선택한 경우에만 표시됩니다.</block>
+  <block id="92a1d0a33c1d664d83111f9738800b21" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="b3a3a8afaf4baa00c2b403c4f47d8c31" category="inline-link-macro-rx"></block></block>
+  <block id="7bf3920a0e4838ef1c15726dd318a39b" category="paragraph">자원 범주를 선택한 경우(예: *+)<block ref="3d99572ec2bdf0c3d8dc014395d1fc4b" category="inline-xref-macro-rx"></block>+ * 를 선택하면 해당 범주의 모든 객체에 대한 알림을 받게 됩니다.</block>
+  <block id="3d79c14c218c5cd8ff01696a25ce2486" category="list-text">ONTAP 클러스터에 대한 사용자 정의 설정을 활성화 또는 비활성화하려면 클러스터에 대한 * 일반 설정 * 선택을 확장합니다. 클러스터 규정 준수를 사용자 지정하는 옵션에 대한 자세한 내용은 을 참조하십시오 <block ref="f2eba0b5dc5a68bf8d427384e8126435" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d2c7cc6a0bd65a30dd724b57df36278a" category="list-text">스토리지 VM에 대한 사용자 지정 설정을 활성화하거나 비활성화하려면 스토리지 VM에 대한 * 일반 설정 * 을 확장합니다. 스토리지 VM 규정 준수를 사용자 지정하는 옵션에 대한 자세한 내용은 를 참조하십시오 <block ref="f7a2215481da607ddb89908bb79db918" category="inline-xref-macro-rx"></block>.</block>
+  <block id="21b27ab0c06b28ac19a0486dc9c2ebef" category="list-text">시스템이 인터넷에 연결되어 있지 않은 경우 7_only_단계를 수행해야 하며 설치에 필요한 패키지를 수동으로 다운로드해야 합니다. 시스템에 인터넷이 연결되어 있고 필요한 모든 패키지를 사용할 수 있는 경우 8단계로 이동합니다. 인터넷에 연결되어 있지 않거나 Red Hat Enterprise Linux 리포지토리를 사용하지 않는 시스템의 경우 다음 단계를 수행하여 필요한 패키지가 있는지 확인한 다음 해당 패키지를 다운로드하십시오.</block>
+  <block id="1179316ec42305c025b11e116990dafc" category="list-text">를 선택합니다<block ref="0343dc028b8904b58f0fda8322166a90" category="inline-xref-macro-rx"></block>Available Resources 영역에서 + * 를 선택한 다음 Selected Resources 영역으로 이동합니다.</block>
+  <block id="a745c95b049f8f0921c2fcc8baec42c6" category="paragraph">변경 후에는 Unified Manager 웹 UI에 액세스할 수 있도록 URL에 새 포트 번호를 포함해야 합니다(예: +https://host.company.com:1234+, +https://12.13.14.15:1122+ 또는 +https://[2001:db8:0:1]:2123+).</block>
+  <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">설치 패키지를 다운로드하고 Unified Manager를 설치하여 데이터 스토리지 용량, 가용성, 성능 및 보호 문제를 모니터링하고 문제를 해결할 수 있습니다.</block>
+  <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">설치 패키지를 다운로드하여 물리적 또는 가상 Red Hat Enterprise Linux 또는 CentOS 플랫폼에 Unified Manager를 설치할 수 있습니다.</block>
 </blocks>

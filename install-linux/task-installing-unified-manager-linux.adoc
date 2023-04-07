@@ -93,7 +93,7 @@ Red Hat Enterprise Linux 8 시스템의 경우 JDK 11-OpenJDK, p7zip 및 AppStre
 ----
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
 ----
-. 반드시 수행해야 합니다 <<STEP_EFB6C72C92504ED68EFE5AE44E710D98,7단계>>_전용_ 시스템이 인터넷에 연결되어 있지 않은 경우 설치에 필요한 패키지를 수동으로 다운로드해야 합니다. 시스템에 인터넷이 연결되어 있고 필요한 모든 패키지를 사용할 수 있는 경우 로 이동합니다 <<STEP_84638F64625B460D9B39BB07971C2480,8단계>>. 인터넷에 연결되어 있지 않거나 Red Hat Enterprise Linux 리포지토리를 사용하지 않는 시스템의 경우 다음 단계를 수행하여 필요한 패키지가 있는지 확인한 다음 해당 패키지를 다운로드하십시오.
+. 시스템이 인터넷에 연결되어 있지 않은 경우 7_only_단계를 수행해야 하며 설치에 필요한 패키지를 수동으로 다운로드해야 합니다. 시스템에 인터넷이 연결되어 있고 필요한 모든 패키지를 사용할 수 있는 경우 8단계로 이동합니다. 인터넷에 연결되어 있지 않거나 Red Hat Enterprise Linux 리포지토리를 사용하지 않는 시스템의 경우 다음 단계를 수행하여 필요한 패키지가 있는지 확인한 다음 해당 패키지를 다운로드하십시오.
 +
 .. Unified Manager를 설치할 시스템에서 사용 가능한 패키지 및 사용할 수 없는 패키지 목록을 봅니다. `yum install netapp-um<version\>.x86_64.rpm --assumeno`
 +

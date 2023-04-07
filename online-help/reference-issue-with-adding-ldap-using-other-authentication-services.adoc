@@ -10,8 +10,7 @@ summary:
 :imagesdir: ../media/
 
 
-* * 문제 *
-+
+[role="lead"]
 인증 서비스로 기타 를 선택하면 사용자 및 groupObjectClass 는 이전에 선택한 템플릿의 값을 유지합니다. LDAP 서버가 동일한 값을 사용하지 않으면 작업이 실패할 수 있습니다.
 
 * * 원인 *

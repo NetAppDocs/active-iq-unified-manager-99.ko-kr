@@ -81,7 +81,7 @@ SNMP 트랩을 통해 사용자에게 알리도록 선택할 수도 있습니다
 . 리소스 * 를 클릭하고 포함 탭의 드롭다운 목록에서 * 볼륨 * 을 선택합니다.
 +
 .. 를 입력합니다 `abc` 이름에 ""abc""가 포함된 볼륨을 표시하기 위한 * 포함 * 필드.
-.. 를 선택합니다<<All Volumes whose name contains 'abc'>>[사용 가능한 자원]에서 [선택한 자원]으로 이동합니다.
+.. Available Resources 영역에서 * \<<All Volumes whose name contains 'abc'>> * 를 선택하고 Selected Resources 영역으로 이동합니다.
 .. 제외 * 를 클릭하고 를 입력합니다 `xyz` 이름 포함 * 필드에서 * 추가 * 를 클릭합니다.
 
 

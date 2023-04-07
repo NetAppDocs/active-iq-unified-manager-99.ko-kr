@@ -22,7 +22,7 @@ summary: 동적 성능 이벤트의 경우 이벤트 세부 정보 페이지의 
 지연 시간이 최대 편차로 정렬되면 사용자 정의 워크로드에만 지연 시간이 적용되므로 시스템 정의 워크로드가 표에 표시되지 않습니다. 지연 시간이 매우 짧은 워크로드는 테이블에 표시되지 않습니다.
 
 ====
-동적 성능 임계값에 대한 자세한 내용은 를 참조하십시오 link:reference-performance-event-analysis-and-notification.adoc["이벤트 정의"]. Unified Manager에서 워크로드의 순위를 결정하고 정렬 순서를 결정하는 방법에 대한 자세한 내용은 을 참조하십시오 xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[Unified Manager에서 이벤트에 대한 성능 영향을 확인하는 방법].
+동적 성능 임계값에 대한 자세한 내용은 를 참조하십시오 xref:reference-performance-event-analysis-and-notification.adoc[이벤트 정의]. Unified Manager에서 워크로드의 순위를 결정하고 정렬 순서를 결정하는 방법에 대한 자세한 내용은 을 참조하십시오 xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[Unified Manager에서 이벤트에 대한 성능 영향을 확인하는 방법].
 
 그래프의 데이터는 이벤트를 마지막으로 분석하기 전에 24시간 동안의 성능 통계를 보여줍니다. 각 워크로드의 실제 값과 예상 값은 워크로드가 발생한 시간을 기준으로 합니다. 예를 들어, 이벤트가 감지된 후 워크로드가 이벤트에 포함될 수 있으므로 이벤트 감지 시 성능 통계가 값과 일치하지 않을 수 있습니다. 기본적으로 워크로드는 지연 시간의 최대(최고) 편차별로 정렬됩니다.
 
@@ -39,7 +39,7 @@ Unified Manager에서는 최대 30일간 5분간 기간별 성능 및 이벤트 
 
 ** * 구성 요소 사용 열 *
 +
-경합하는 클러스터 구성 요소의 워크로드 사용에 대한 세부 정보를 표시합니다. 그래프에서 실제 사용량은 파란색 선입니다. 빨간색 막대는 감지 시간부터 마지막으로 분석된 시간까지 이벤트 지속 시간을 강조 표시합니다. 자세한 내용은 을 참조하십시오 link:reference-workload-performance-measurement-values.adoc["워크로드 성능 측정"].
+경합하는 클러스터 구성 요소의 워크로드 사용에 대한 세부 정보를 표시합니다. 그래프에서 실제 사용량은 파란색 선입니다. 빨간색 막대는 감지 시간부터 마지막으로 분석된 시간까지 이벤트 지속 시간을 강조 표시합니다. 자세한 내용은 을 참조하십시오 xref:reference-workload-performance-measurement-values.adoc[워크로드 성능 측정].
 
 +
 [NOTE]
