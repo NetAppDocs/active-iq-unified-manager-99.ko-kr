@@ -29,7 +29,7 @@ Red Hat Enterprise Linux 및 CentOS 시스템에 대해 동일한 Unified Manage
 
 == 단계
 
-. NetApp Support 사이트에 로그인하고 Unified Manager용 * 다운로드 * 페이지로 이동합니다. https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp Support 사이트"]
+. NetApp Support 사이트에 로그인하고 Unified Manager용 * 다운로드 * 페이지로 이동합니다. https://["NetApp Support 사이트"]
 . Unified Manager의 필수 버전을 선택하고 최종 사용자 라이센스 계약(EULA)에 동의합니다.
 . Linux용 Unified Manager 설치 관리자 파일을 다운로드하고 를 저장합니다 `.zip` 대상 시스템의 디렉토리에 파일.
 +

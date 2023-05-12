@@ -17,4 +17,4 @@ Unified Manager는 새 규칙 파일을 자동으로 확인하고 새 규칙이 
 
 Active IQ 이벤트는 기존 Unified Manager 이벤트와 중복되지 않으며 시스템 구성, 케이블 연결, 모범 사례 및 가용성 문제와 관련된 인시던트나 위험을 식별합니다.
 
-NetApp Active IQ는 예측 분석 및 능동적 지원을 제공하여 NetApp 하이브리드 클라우드 전반에서 스토리지 시스템 운영을 최적화하는 클라우드 기반 서비스입니다. 을 참조하십시오 https://www.netapp.com/us/products/data-infrastructure-management/active-iq.aspx["NetApp Active IQ를 참조하십시오"] 를 참조하십시오.
+NetApp Active IQ는 예측 분석 및 능동적 지원을 제공하여 NetApp 하이브리드 클라우드 전반에서 스토리지 시스템 운영을 최적화하는 클라우드 기반 서비스입니다. 을 참조하십시오 https://["NetApp Active IQ를 참조하십시오"] 를 참조하십시오.
