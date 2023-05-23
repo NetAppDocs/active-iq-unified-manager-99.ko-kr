@@ -82,4 +82,4 @@ IOPS/TB 설치 공간 보기(QoS 예상)
 
 QoS 설정 조정에 대한 자세한 내용은 _ONTAP 9 성능 모니터링 전원 가이드_를 참조하십시오.
 
-http://["ONTAP 9 성능 모니터링 전원 가이드"]
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html["ONTAP 9 성능 모니터링 전원 가이드"]
