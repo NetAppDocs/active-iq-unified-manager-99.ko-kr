@@ -13002,21 +13002,6 @@
   <block id="54cee202b784163d7cdf325cdd6aa6c6" category="sidebar">VMware vSphere를 위한 빠른 시작 설치</block>
   <block id="a63af8d4197dd6c65eaa56176a1f0040" category="sidebar">Linux용 빠른 시작 설치</block>
   <block id="b107f1742bfa32d7247ebf557550e2b5" category="sidebar">Windows용 빠른 시작 설치</block>
-  <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">릴리즈 노트</block>
-  <block id="828adfb3faf6bb0d6a86602f92d97f36" category="sidebar">Configure Unified Manager를 설치합니다</block>
-  <block id="e53d36a21edd215027333eb7ea60fbc1" category="sidebar">VMware vSphere 시스템에 업그레이드를 설치합니다</block>
-  <block id="e16bdcc955b9441255836a75b797d710" category="sidebar">Linux 시스템에 업그레이드를 설치합니다</block>
-  <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">Windows 시스템에 업그레이드를 설치합니다</block>
-  <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">Unified Manager를 구성합니다</block>
-  <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">성능 모니터링</block>
-  <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">성능 임계값</block>
-  <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">클러스터 성능</block>
-  <block id="13b1a36194bc49ac73c5077e1c1f6dd7" category="sidebar">QoS 정책 그룹</block>
-  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">더 많은 리소스</block>
-  <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager 비디오</block>
-  <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 블로그</block>
-  <block id="c0fd3a67a0f9d526734eae8cf8142cb4" category="sidebar">최신 버전의 Active IQ Unified Manager 설명서</block>
-  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager를 참조하십시오</block>
   <block id="d549fcac9e4340e7fb3d154a339f9c13" category="sidebar">데이터 보호 및 복원</block>
   <block id="63c702324d7a2f1acfb2291776c09e62" category="sidebar">보호 관계 관리 및 모니터링(데이터 보호)</block>
   <block id="b94ff8a5ea0245f4105f7b2ce38eeff6" category="sidebar">스토리지 VM 재해 복구 보호 관계 모니터링(데이터 보호)</block>
@@ -13112,4 +13097,7 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="5c54cb8f927a6c5a90622e1c7bd0bda5" category="paragraph">NTP</block>
+  <block id="4a8598febd97e32d0698051cd71f02fa" category="paragraph">123/UDP입니다</block>
+  <block id="cb2a1ba65000d6677f2856e06530ac31" category="paragraph">Unified Manager 서버의 시간을 외부 NTP 시간 서버와 동기화하는 데 사용됩니다. (VMware 시스템만 해당)</block>
 </blocks>
