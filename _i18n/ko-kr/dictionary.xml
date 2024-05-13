@@ -2821,7 +2821,6 @@
   <block id="2fb316da76096cad55a3dd4bf16886ad" category="list-text">자세히 아이콘을 클릭합니다 <block ref="0e5533af257bb4cee98a9136d3bb1c63" category="inline-image-macro-rx" type="image"></block> 변경할 스케줄입니다.</block>
   <block id="adff6885d0c25b63e9c076fa5bfe2ac8" category="list-text">보고서 일정에 대해 별표 이름 *, * 수신자 * 목록, * 빈도 * 및 * 형식 * 을 변경할 수 있습니다.</block>
   <block id="3c089aca469ff81256c133ec51b447ce" category="list-text">완료되면 확인 표시를 클릭하여 변경 사항을 저장합니다.</block>
-  <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">Active IQ Unified Manager, AIQUM 문서, UM 문서에 대한 문서입니다</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">Active IQ Unified Manager 문서</block>
   <block id="38e6765f489199cbac8d654040013a22" category="doc">Linux 설치를 위한 빠른 시작 지침</block>
   <block id="a165ede2e82fd84f39f81e1ae64211f7" category="list-text">운영 체제: x86_64 아키텍처를 기반으로 하는 Red Hat Enterprise Linux 및 CentOS 버전 7.x 및 8.x는 OS 설치 프로그램의 소프트웨어 선택 옵션에서 "GUI가 있는 서버" 기본 환경을 사용하여 설치됩니다</block>
@@ -13100,4 +13099,20 @@
   <block id="5c54cb8f927a6c5a90622e1c7bd0bda5" category="paragraph">NTP</block>
   <block id="4a8598febd97e32d0698051cd71f02fa" category="paragraph">123/UDP입니다</block>
   <block id="cb2a1ba65000d6677f2856e06530ac31" category="paragraph">Unified Manager 서버의 시간을 외부 NTP 시간 서버와 동기화하는 데 사용됩니다. (VMware 시스템만 해당)</block>
+  <block id="67fde88ecdbd1fc85837595186b984a3" category="sidebar">Active IQ Unified Manager(Unified Manager 및 이전의 OnCommand Unified Manager)를 사용하면 단일 인터페이스에서 ONTAP 스토리지 시스템의 상태 및 성능을 모니터링 및 관리할 수 있습니다. 이 설명서 라이브러리에는 버전 9.9에 대한 정보가 포함되어 있습니다.</block>
+  <block id="bd37abac39311a4e4bf00abc8bea791a" category="sidebar">Active IQ Unified Manager 9.9 설명서.</block>
+  <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">릴리즈 노트</block>
+  <block id="828adfb3faf6bb0d6a86602f92d97f36" category="sidebar">Unified Manager 설치 및 구성</block>
+  <block id="e53d36a21edd215027333eb7ea60fbc1" category="sidebar">VMware vSphere 시스템에 설치 및 업그레이드</block>
+  <block id="e16bdcc955b9441255836a75b797d710" category="sidebar">Linux 시스템에 설치 및 업그레이드</block>
+  <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">Windows 시스템에 설치 및 업그레이드</block>
+  <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">Unified Manager를 구성합니다</block>
+  <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">성능 모니터링</block>
+  <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">성능 임계값</block>
+  <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">클러스터 성능</block>
+  <block id="13b1a36194bc49ac73c5077e1c1f6dd7" category="sidebar">QoS 정책 그룹</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">더 많은 리소스</block>
+  <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager 비디오</block>
+  <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 블로그</block>
+  <block id="c0fd3a67a0f9d526734eae8cf8142cb4" category="sidebar">최신 버전의 Active IQ Unified Manager 설명서</block>
 </blocks>
