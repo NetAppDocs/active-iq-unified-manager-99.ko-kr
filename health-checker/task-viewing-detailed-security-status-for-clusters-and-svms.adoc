@@ -30,5 +30,5 @@ summary: 보안 페이지에는 모든 클러스터에 대한 높은 수준의 �
 ** 각 클러스터에서 사용 중인 클러스터 인증 방법입니다
 
 
-. 을 참조하십시오 http://www.netapp.com/us/media/tr-4569.pdf["ONTAP 9에 대한 NetApp 보안 강화 가이드"] 모든 클러스터, SVM 및 볼륨을 NetApp 보안 권장 사항을 준수하는 방법에 대한 지침은 를 참조하십시오.
+. 모든 클러스터, SVM 및 볼륨이 NetApp 보안 권장 사항에 부합하도록 만드는 방법에 대한 지침은 를 https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["ONTAP 9에 대한 NetApp 보안 강화 가이드"^] 참조하십시오.
 

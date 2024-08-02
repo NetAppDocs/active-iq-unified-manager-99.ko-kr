@@ -2978,7 +2978,6 @@
   <block id="56bad51d0fd70713223e857396803caa" category="paragraph">적은 용량의 메모리가 있는 시스템에 Unified Manager를 설치할 수 있지만 권장되는 12GB RAM을 사용하면 최적의 성능을 위해 충분한 메모리를 사용할 수 있으며, 따라서 시스템이 구성 증가에 따라 추가 클러스터 및 스토리지 오브젝트를 수용할 수 있습니다. Unified Manager가 구축된 VM에서 메모리 제한을 설정하지 말아야 하며, 시스템에서 할당된 메모리를 소프트웨어가 활용하지 못하는 기능(예: 풍선 벌루닝)을 사용하면 안 됩니다.</block>
   <block id="118be0e1a3c862556b2a6426bdcd24de" category="paragraph">또한 Unified Manager의 두 번째 인스턴스를 설치하기 전에 Unified Manager의 단일 인스턴스에서 모니터링할 수 있는 노드 수에 제한이 있습니다. 자세한 내용은 _모범 사례 가이드_를 참조하십시오.</block>
   <block id="9650789293045a87cc14a47729b5ebfc" category="inline-link">기술 보고서 4621: Unified Manager 모범 사례 가이드</block>
-  <block id="badef135127b32313f0e0eebe283472f" category="paragraph"><block ref="badef135127b32313f0e0eebe283472f" category="inline-link-rx"></block></block>
   <block id="ccd350b03208f21a01e8434aa29bf22c" category="paragraph">메모리 페이지 스와핑은 시스템 및 관리 응용 프로그램의 성능에 부정적인 영향을 줍니다. 전체 호스트 활용률로 인해 CPU 리소스를 사용하지 않는 경우 성능이 저하될 수 있습니다.</block>
   <block id="eeedd0b411cf8b8d426d2fb1abee2797" category="section-title">전용 요구사항</block>
   <block id="c74cdaf0de603354b9d68a1b99f50e57" category="paragraph">Unified Manager를 설치하는 물리적 또는 가상 시스템은 Unified Manager에만 사용해야 하며 다른 애플리케이션과 공유해서는 안 됩니다. 다른 애플리케이션은 시스템 리소스를 소모하며 Unified Manager의 성능을 크게 줄일 수 있습니다.</block>
@@ -4370,7 +4369,6 @@
   <block id="aa5ea9a79b8363872969fe3e4d5ce9b3" category="paragraph">Unified Manager는 ONTAP 9_에 대한_NetApp 보안 강화 가이드에 정의된 권장사항을 기반으로 ONTAP 클러스터, SVM(스토리지 가상 시스템), 볼륨이 얼마나 안전한지 식별하는 대시보드를 제공합니다.</block>
   <block id="e60416fe8f102037593aec660b785842" category="paragraph">보안 대시보드의 목표는 ONTAP 클러스터가 NetApp 권장 지침에 맞지 않는 영역을 보여서 이러한 잠재적 문제를 해결할 수 있도록 하는 것입니다. 대부분의 경우 ONTAP 시스템 관리자 또는 ONTAP CLI를 사용하여 문제를 해결할 수 있습니다. 조직에서 모든 권장 사항을 따르지 않을 수 있으므로 변경할 필요가 없는 경우도 있습니다.</block>
   <block id="0303e15cb5131cd4b937c60c3de7bb42" category="inline-link">ONTAP 9에 대한 NetApp 보안 강화 가이드</block>
-  <block id="60443e5478cdf6c85aba4b527880b533" category="paragraph">를 참조하십시오<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> (TR-4569)을 참조하십시오.</block>
   <block id="349b5120a9ed5730c85dd33d0233bfa1" category="paragraph">Unified Manager는 보안 상태를 보고하는 것 외에도 보안 위반 사례가 있는 클러스터 또는 SVM을 위한 보안 이벤트도 생성합니다. 이벤트 관리 인벤토리 페이지에서 이러한 문제를 추적하고 이러한 이벤트에 대한 알림을 구성하여 새로운 보안 이벤트가 발생할 때 스토리지 관리자에게 알릴 수 있습니다.</block>
   <block id="cdeab4d80478ad44d15f973c1a3ce435" category="summary">AutoSupport 페이지에서는 사전 정의된 요청 시 AutoSupport 메시지를 기술 지원 팀에 전송하여 운영 환경을 올바르게 운영하고 환경의 무결성을 유지할 수 있도록 지원합니다. AutoSupport는 기본적으로 활성화되어 있으며NetApp Active IQ의 이점을 누릴 수 있도록 비활성화되어서는 안 됩니다.</block>
   <block id="a26cbacfd0a52d4a051db547e4dae143" category="doc">기술 지원 팀에 AutoSupport 메시지 및 지원 번들 보내기</block>
@@ -4718,7 +4716,6 @@
   <block id="3a215c293d531341a13e54d1b4f767d8" category="list-text">피어링된 클러스터의 통신이 암호화되었는지 여부</block>
   <block id="34c28c126e19226f9ae33dc5640078bb" category="list-text">스토리지 VM에 감사 로그가 설정되었는지 여부</block>
   <block id="8083dc3f1ad1356d39b70d2189b04945" category="list-text">볼륨에 소프트웨어 또는 하드웨어 암호화가 활성화되어 있는지 여부</block>
-  <block id="eab70e6fe7e77946b94068e68a8ce442" category="paragraph">규정 준수 범주 및 에 대한 항목을 참조하십시오<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> 을 참조하십시오.</block>
   <block id="c59a5985bd2d618db813147ff21b648b" category="paragraph">Active IQ 플랫폼에서 보고된 업그레이드 이벤트도 보안 이벤트로 간주됩니다. 이러한 이벤트는 문제 해결을 위해 ONTAP 소프트웨어, 노드 펌웨어 또는 운영 체제 소프트웨어(보안 권장 사항)를 업그레이드해야 하는 문제를 식별합니다. 이러한 이벤트는 보안 패널에 표시되지 않지만 이벤트 관리 인벤토리 페이지에서 사용할 수 있습니다.</block>
   <block id="b54f31dd6204fb4eea238c710ce88c52" category="summary">ONTAP 클러스터 중 하나에서 이미 구성한 볼륨의 Active IQ Unified Manager 스냅샷 백업에 대한 대상 위치를 구성하고 유지보수 콘솔을 사용하여 위치를 정의해야 합니다.</block>
   <block id="799bf19e536ac1b86d71b01a9e77ae44" category="doc">Windows Snapshot 백업의 대상 위치 지정</block>
@@ -4902,7 +4899,6 @@
   <block id="001cdcc1bced815dbb889c31d496a91c" category="list-text">Security * 패널에서 오른쪽 화살표를 클릭합니다.</block>
   <block id="21b404ba083f7cb1aacb4498842a979b" category="paragraph">보안 페이지에는 다음 정보가 표시됩니다.</block>
   <block id="1113c5580efb5e128133e0c849ea6b54" category="list-text">각 클러스터에서 사용 중인 클러스터 인증 방법입니다</block>
-  <block id="a4deeec5e2b40be9ffab412cfc04266c" category="list-text">을 참조하십시오<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> 모든 클러스터, SVM 및 볼륨을 NetApp 보안 권장 사항을 준수하는 방법에 대한 지침은 를 참조하십시오.</block>
   <block id="2e95339e9dbe7207255809b48fd3f8be" category="summary">Unified Manager GUI에 액세스할 수 없는 경우 유지보수 콘솔에서 SAML 인증을 비활성화해야 할 수 있습니다. 이는 구성이 잘못되거나 IDP에 액세스할 수 없는 경우에 발생할 수 있습니다.</block>
   <block id="742cb249fa8cd9421fb803e742e1d7e1" category="doc">유지 관리 콘솔에서 SAML 인증을 사용하지 않도록 설정합니다</block>
   <block id="ce4cb1454337774a262ad6d82cc7c302" category="paragraph">SAML 인증이 비활성화된 경우 Active Directory 또는 LDAP와 같이 구성된 디렉토리 서비스 공급자가 로그온 인증을 수행합니다. 로컬 사용자 및 유지 관리 사용자는 구성된 원격 사용자 외에도 그래픽 사용자 인터페이스에 액세스할 수 있습니다.</block>
@@ -5308,7 +5304,6 @@
   <block id="64bd5015546813c113a50d1d816a2fce" category="list-text">* 성능 *</block>
   <block id="28a28996e5e10ee62864b322cf2e8851" category="paragraph">성능 이벤트는 클러스터에서 리소스, 구성 또는 활동 상태에 대해 알림을 발생하므로, 모니터링되는 스토리지 개체의 데이터 스토리지 입력 또는 검색 속도에 악영향을 미칠 수 있습니다.</block>
   <block id="e28ab1dac11a8a6babec11d768ded66a" category="paragraph">보호 이벤트는 SnapMirror 관계, 대상 용량 문제, SnapVault 관계 문제 또는 보호 작업 관련 문제와 관련된 사고 또는 위험을 알려줍니다. 2차 볼륨 및 보호 관계를 호스팅하는 모든 ONTAP 오브젝트(특히 애그리게이트, 볼륨 및 SVM)는 보호 영향 영역에서 분류됩니다.</block>
-  <block id="a9518f09019b40e9f9d0808f91e32925" category="paragraph">보안 이벤트는 에 정의된 매개 변수를 기반으로 ONTAP 클러스터, SVM(스토리지 가상 머신) 및 볼륨의 보안 수준을 알려줍니다<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>.</block>
   <block id="26426dd05fca05471c34919c8d351e36" category="paragraph">또한 이 영역에는 Active IQ 플랫폼에서 보고된 업그레이드 이벤트가 포함됩니다.</block>
   <block id="bac22306a2632f2464a7bc7eb26d21c6" category="summary">이 워크플로우에서는 다운된 스토리지 페일오버 인터커넥트 링크 상태를 검색, 평가 및 해결하는 방법의 예를 제공합니다. 이 시나리오에서는 Unified Manager를 사용하여 노드에서 ONTAP 버전 업그레이드를 시작하기 전에 스토리지 페일오버 위험을 검사합니다.</block>
   <block id="66deb8126d9a4e2c908a3654f4ece414" category="doc">스토리지 페일오버 상호 연결 검색 및 해결 링크 다운 상태</block>
@@ -8662,7 +8657,6 @@
   <block id="dbbb25505b3a4586da3364432f2256b9" category="paragraph">ONTAP System Manager나 ONTAP 명령을 사용하여 Flash Cache가 설치되어 있는지, 설정되어 있지 않은 경우 사용하도록 설정할 수 있습니다. 다음 명령을 실행하면 특정 노드에서 Flash Cache가 설정되었는지 여부가 표시됩니다.<block ref="48de88639c7fbb304293e385f1577ff8" prefix=" " category="inline-code"></block></block>
   <block id="4226c3da2a5d50e1c8abfdfbf9bd3780" category="paragraph">Flash Cache 및 Flash Cache 사용에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오.</block>
   <block id="4d594fa378085e019a42ca73e740986c" category="inline-link">기술 보고서 3832: Flash Cache 모범 사례 가이드 를 참조하십시오</block>
-  <block id="e9f146d71f531c29c1d0c53c51f7c325" category="paragraph"><block ref="e9f146d71f531c29c1d0c53c51f7c325" category="inline-link-rx"></block></block>
   <block id="ed46215834ece9df6f6e928ec99fb8b8" category="summary">기존 클러스터를 추가하여 클러스터를 모니터링하고 상태, 용량, 구성 및 성능에 대한 정보를 얻을 수 있습니다.</block>
   <block id="0130853463bbe8886a65910adc3f54b2" category="doc">Add Cluster 대화 상자</block>
   <block id="67417a585c57d841c0ff1ea84e382fcd" category="paragraph">다음 값을 지정하여 클러스터를 추가할 수 있습니다.</block>
@@ -12213,7 +12207,6 @@
   <block id="ce0a654c3b5c722340279eb742f2247d" category="paragraph">단일 클러스터를 볼 때 이 패널에는 특정 IOPS 범위에서 현재 실행 중인 총 워크로드 수가 표시되고, 차트 위에 커서를 놓으면 각 디스크 유형의 수를 나타냅니다.</block>
   <block id="db3ec3afcbb3550eaf2d4f9224d2c3b6" category="paragraph">이 패널에는 각 PSL(Performance Service Level) 정책에 할당된 준수 및 부적합 워크로드의 총 수가 표시됩니다. 또한 PSL이 할당되지 않은 워크로드의 수도 표시됩니다. 막대 차트를 클릭하면 워크로드 페이지에서 해당 정책에 할당된 적합한 워크로드로 이동합니다. 막대 차트 다음에 나오는 숫자를 클릭하면 해당 정책에 할당된 준수 및 부적합 작업 부하로 이동합니다.</block>
   <block id="ef4fe1b8268d44620ad24ec7733645fd" category="list-text">* 보안 패널 *</block>
-  <block id="9a268bcb23ec0f95e8394deaee691d7b" category="paragraph">모든 클러스터를 볼 때 이 패널에는 준수 및 호환되지 않는 클러스터 수, 규정을 준수하고 준수하지 않는 스토리지 VM 수, 암호화되고 암호화되지 않은 볼륨 수가 표시됩니다. 규정 준수는 을 기준으로 합니다<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>. 패널 상단의 오른쪽 화살표를 클릭하여 보안 페이지의 모든 클러스터에 대한 보안 세부 정보를 봅니다.</block>
   <block id="e628bbecfc1209b863d3db82601b635c" category="paragraph">단일 클러스터를 볼 때 이 패널은 클러스터가 규정을 준수하는지 여부, 규정을 준수하면서 규정을 준수하지 않는 스토리지 VM 수 및 암호화되고 암호화되지 않은 볼륨 수를 표시합니다. 패널 상단의 오른쪽 화살표를 클릭하여 보안 페이지에서 클러스터의 보안 세부 정보를 확인합니다.</block>
   <block id="780ec40cc715a112c118d12f06bd508f" category="paragraph">모든 클러스터를 볼 때 가장 높은 IOPS, 가장 높은 처리량(MB/s) 또는 가장 많이 사용되는 물리적 용량을 기준으로 정렬된 클러스터를 표시하도록 선택할 수 있습니다.</block>
   <block id="56301f99c72abc61a51cf04b7c012878" category="paragraph">단일 클러스터를 볼 때 가장 높은 IOPS, 가장 높은 처리량(MB/s) 또는 가장 많이 사용되는 논리적 용량을 기준으로 워크로드를 정렬하도록 선택할 수 있습니다.</block>
@@ -12865,7 +12858,6 @@
   <block id="7c48a0120101491ea5a781058b5716de" category="doc">디스크를 추가하고 애그리게이트 레이아웃 재구성을 수행합니다</block>
   <block id="fdf3b7352c190d213c24db064ec3a78e" category="paragraph">이벤트 세부 정보 페이지에서 시스템 정의 임계값 이벤트를 수신하면 이벤트 설명 텍스트에 문제가 있는 애그리게이트의 이름이 나열됩니다. 이 애그리게이트에서 디스크를 추가하고 데이터를 재구성할 수 있습니다.</block>
   <block id="c993772a65e087ac68acfde3645c3287" category="inline-link">기술 보고서 3838: 스토리지 서브시스템 구성 가이드</block>
-  <block id="0379ced083df169219dc62cc5068b75c" category="paragraph"><block ref="0379ced083df169219dc62cc5068b75c" category="inline-link-rx"></block></block>
   <block id="877f5e27a442690f512bdd4fa77d8cb6" category="summary">Unified Manager를 사용하여 MetroCluster 구성에서 클러스터의 운영 상태 및 구성 요소를 확인할 수 있습니다. 클러스터가 Unified Manager에서 감지한 성능 이벤트에 참여한 경우 상태 를 통해 하드웨어 또는 소프트웨어 문제가 이벤트에 기여했는지 여부를 확인할 수 있습니다.</block>
   <block id="5e9e3cac8906fbac9ab062f3f912efc9" category="doc">MetroCluster 구성에서 클러스터 상태 확인</block>
   <block id="1e86f8bde1a87a2deac3175345884436" category="list-text">MetroCluster 구성에 대한 성능 이벤트를 분석하고 관련 클러스터의 이름을 확인해야 합니다.</block>
@@ -13115,4 +13107,12 @@
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager 비디오</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 블로그</block>
   <block id="c0fd3a67a0f9d526734eae8cf8142cb4" category="sidebar">최신 버전의 Active IQ Unified Manager 설명서</block>
+  <block id="a5c178ca0adb1a0269f3bd998293dd38" category="paragraph"><block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>자세한 권장 사항 및 해결 방법은 (TR-4569)을 참조하십시오.</block>
+  <block id="672333e5623d0406e27edefd4a600c08" category="paragraph">자세한 내용은 규정 준수 범주 및 을<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="1af9d8b43c265c6a772871d91469520e" category="paragraph">보안 이벤트는 에 정의된 매개 변수를 기반으로 ONTAP 클러스터, 스토리지 가상 머신(SVM) 및 볼륨의 보안을 유지하는 방법을 사용자에게<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>알려줍니다.</block>
+  <block id="356446276fe0b8850474bcda6d3dbdb0" category="list-text">모든 클러스터, SVM 및 볼륨이 NetApp 보안 권장 사항에 부합하도록 만드는 방법에 대한 지침은 를<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="ee26087a8b7ec790988603a3298c45f3" category="paragraph"><block ref="ee26087a8b7ec790988603a3298c45f3" category="inline-link-rx"></block></block>
+  <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
+  <block id="293b7a0c506af87a1e3b4fb005b0232e" category="paragraph">모든 클러스터를 볼 때 이 패널에는 준수 및 호환되지 않는 클러스터 수, 규정을 준수하고 준수하지 않는 스토리지 VM 수, 암호화되고 암호화되지 않은 볼륨 수가 표시됩니다. 규정 준수는 을<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>기반으로 합니다. 패널 상단의 오른쪽 화살표를 클릭하여 보안 페이지의 모든 클러스터에 대한 보안 세부 정보를 봅니다.</block>
+  <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
 </blocks>
